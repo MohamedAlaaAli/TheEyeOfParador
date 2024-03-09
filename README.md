@@ -73,6 +73,39 @@ The Eye of Parador model employs a deep learning-based approach for shoplifting 
     - The model was evaluated on a the test set that we seperated before modeling and for some instanced from the UCF-Crime dataset
     - The model yeilded a precision of 94.1% and a recall of 100% this shows the strength and the generalization of the model.
 
-## Acknowledgment
-We would like to acknowledge the support and guidance provided by the organizers of the "Machathon 5.00" hackathon,for providing this dataset and the compition.
+## Contributors
+
+<Meet the team>
+
+<table>
+  <tr>
+    </td>
+    <td align="center">
+    <a href="https://github.com/MohamedAlaaAli" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/94873742?v=4" width="150px;" alt="Mohamed Alaa"/>
+    <br />
+    <sub><b>Mohamed Alaa</b></sub></a>
+    </td>
+    <td align="center">
+   <td align="">
+    <a href="https://github.com/Medo072" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/83141866?v=4" width="150px;" alt="Mohamed Ibrahim"/>
+    <br />
+    <sub><b>Mohamed Ibrahim</b></sub></a>
+    </td>
+    <td align="center">
+    <a href="https://github.com/Ayamachii" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/96113496?v=4" width="150px;" alt="Aya Eyad"/>
+    <br />
+    <sub><b>Aya Eyad</b></sub></a>
+    </td>
+    <td align="center">
+    <a href="https://github.com/nouran-19" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/99448829?v=4" width="150px;" alt="Nouran Khattab"/>
+    <br />
+    <sub><b>Nouran Khattab</b></sub></a>
+    </td>
+    </tr>
+ </table>
+
 
