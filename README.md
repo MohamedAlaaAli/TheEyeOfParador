@@ -49,8 +49,7 @@ The Eye of Parador model employs a deep learning-based approach for shoplifting 
     - Each training batch has a shape of (Batch_size,N_channels=3, N_frames=16, 224, 224)
 
 2. **Model Architecture:** A **Multi Scale Vision Transformer**<br>
-![MVIT](assets/mvit.png) 
-![MVIT](assets/mvit2.png)
+![MVIT](assets/mvit.webp) 
 
     - Multiscale Processing: MViT processes both spatial and temporal information at multiple scales. It leverages multiple levels of spatial and temporal resolutions to capture features at different granularities, enabling the model to understand both global context and fine details within video sequences.
 
@@ -65,6 +64,15 @@ The Eye of Parador model employs a deep learning-based approach for shoplifting 
     
  
 3. **Training:** The model is trained using the annotated dataset, optimizing for classification of shoplifting and non-shoplifting actions .
+    - The model was pretrained on kinetics 200 dataset and we finetuned it to our task.
+    - The model is trained using cros entropy loss function with class weights penaliziation to force the model to focus on the shoplifter class.
+    - Optimization is done using Adam optimizer with learning rate 10E-03 whith learning rate decay constant for each epoch 10E-04.
+    - Our batch size of 2 and for about 7-10 Epochs.
 4. **Evaluation:** The trained model is evaluated on a separate test set to assess its performance in detecting shoplifting behaviors.
-5. **Deployment:** The finalized model is deployed for real-time inference, integrated into existing surveillance systems or security frameworks.
+    - Our evaluation metrics were precision and recall .
+    - The model was evaluated on a the test set that we seperated before modeling and for some instanced from the UCF-Crime dataset
+    - The model yeilded a precision of 94.1% and a recall of 100% this shows the strength and the generalization of the model.
+
+## Acknowledgment
+We would like to acknowledge the support and guidance provided by the organizers of the "Machathon 5.00" hackathon,for providing this dataset and the compition.
 
