@@ -70,7 +70,7 @@ The Eye of Parador model employs a deep learning-based approach for shoplifting 
     - Our batch size of 2 and for about 7-10 Epochs.
 4. **Evaluation:** The trained model is evaluated on a separate test set to assess its performance in detecting shoplifting behaviors.
     - Our evaluation metrics were precision and recall .
-    - The model was evaluated on a the test set that we seperated before modeling and for some instanced from the UCF-Crime dataset
+    - The model was evaluated on a the test set that we seperated before modeling and for some instances from the UCF-Crime dataset
     - The model yeilded a precision of 94.1% and a recall of 100% this shows the strength and the generalization of the model.
 
 ## Contributors
