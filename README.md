@@ -108,4 +108,6 @@ The Eye of Parador model employs a deep learning-based approach for shoplifting 
     </tr>
  </table>
 
+ All trained model weights can be found [here]("https://github.com/MohamedAlaaAli/bash) and [here]("https://github.com/Medo072/machathon)
+
 
